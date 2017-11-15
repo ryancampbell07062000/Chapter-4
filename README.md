@@ -7,7 +7,7 @@
     <li>Debugging 1</li>
     <li>Page 278, #1, #2, #4</li>
     <li>Mad Libs Using List Forms</li>
-    <img src="madLibs.PNG">
+    <img src="madLibs.PNG" height="250" width="250">
     <li></li>
     <li></li>
  </ul>
