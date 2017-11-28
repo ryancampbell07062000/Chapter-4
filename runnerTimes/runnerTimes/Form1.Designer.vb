@@ -35,13 +35,13 @@ Partial Class Form1
         Me.txtTime1 = New System.Windows.Forms.TextBox()
         Me.txtName3 = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.lblResult1 = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.lblResult2 = New System.Windows.Forms.Label()
         Me.lblResult3 = New System.Windows.Forms.Label()
+        Me.lblResult2 = New System.Windows.Forms.Label()
+        Me.lblResult1 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -157,49 +157,13 @@ Partial Class Form1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
         '
-        'Label7
+        'lblResult3
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(25, 35)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(39, 13)
-        Me.Label7.TabIndex = 0
-        Me.Label7.Text = "Label7"
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(25, 96)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(39, 13)
-        Me.Label9.TabIndex = 2
-        Me.Label9.Text = "Label9"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(19, 61)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(45, 13)
-        Me.Label10.TabIndex = 3
-        Me.Label10.Text = "Label10"
-        '
-        'lblResult1
-        '
-        Me.lblResult1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblResult1.Location = New System.Drawing.Point(117, 27)
-        Me.lblResult1.Name = "lblResult1"
-        Me.lblResult1.Size = New System.Drawing.Size(69, 21)
-        Me.lblResult1.TabIndex = 5
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(288, 561)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.lblResult3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblResult3.Location = New System.Drawing.Point(117, 95)
+        Me.lblResult3.Name = "lblResult3"
+        Me.lblResult3.Size = New System.Drawing.Size(69, 21)
+        Me.lblResult3.TabIndex = 10
         '
         'lblResult2
         '
@@ -209,13 +173,49 @@ Partial Class Form1
         Me.lblResult2.Size = New System.Drawing.Size(69, 21)
         Me.lblResult2.TabIndex = 9
         '
-        'lblResult3
+        'lblResult1
         '
-        Me.lblResult3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblResult3.Location = New System.Drawing.Point(117, 95)
-        Me.lblResult3.Name = "lblResult3"
-        Me.lblResult3.Size = New System.Drawing.Size(69, 21)
-        Me.lblResult3.TabIndex = 10
+        Me.lblResult1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblResult1.Location = New System.Drawing.Point(117, 27)
+        Me.lblResult1.Name = "lblResult1"
+        Me.lblResult1.Size = New System.Drawing.Size(69, 21)
+        Me.lblResult1.TabIndex = 5
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(19, 61)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(44, 13)
+        Me.Label10.TabIndex = 3
+        Me.Label10.Text = "Second"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(32, 96)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(31, 13)
+        Me.Label9.TabIndex = 2
+        Me.Label9.Text = "Third"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(37, 35)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(26, 13)
+        Me.Label7.TabIndex = 0
+        Me.Label7.Text = "First"
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(288, 561)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Form1
         '

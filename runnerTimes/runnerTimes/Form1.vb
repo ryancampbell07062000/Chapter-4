@@ -3,9 +3,10 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim dblTime1, dblTime2, dblTime3 As Double
 
-        txtTime1.Text = dblTime1
-        txtTime2.Text = dblTime2
-        txtTime3.Text = dblTime3
+        dblTime1 = txtTime1.Text
+        dblTime2 = txtTime2.Text
+        dblTime3 = txtTime3.Text
+
 
         If dblTime1 < dblTime2 And dblTime1 < dblTime3 Then
             lblResult1.Text = txtName1.Text
